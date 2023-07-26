@@ -1,0 +1,349 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+.main-container{
+    background-color: rgba(238, 238, 238, 0.704);
+}
+
+/* HEAD SECTION */
+header{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+}
+.head{
+    margin: auto;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-1{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropbtn {
+    background-color: transparent;
+    padding: 0px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 60px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #dfdfdfa2;
+}
+  
+  .dropdown:hover .dropdown-content {
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+    border-color: rgb(0, 102, 255);
+    display: block;
+}
+.h-1 a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  .h-2{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.h-2 img{
+    width: 15px;
+    height: 15px;
+}
+
+/* SECTION 1 */
+.sec-1{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.sec-1-content{
+    padding-top: 100px;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+}
+.s-1-p-1{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+    color: cornflowerblue;
+}
+.s-1-p-2{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+}
+.s-1-p-3{
+    font-size: 14px;
+}
+
+/* SECTION 2 */
+.sec-2{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+.sec-2-1{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+.sec-2-1 p{
+    padding:0px 0px 20px 0px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.sec-2-1-1{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.sec-2-1-2{
+    margin: 18px;
+    min-width: 30%;
+    height: 22%;
+    float: left;
+    border-radius: 10px;
+    transition: all 0.03s;
+    display: flex;
+    align-items: center; 
+    line-height: 100%;
+}
+.sec-2-1-2:hover{
+    background-color: rgba(236, 246, 246, 0.87); 
+}
+.sec-2-1 a{
+    text-decoration: none;
+    padding-right: auto;
+    color: black;
+    transition: color 0.03s;
+}
+.sec-2-1 a:hover{
+    color: rgb(0, 85, 255);
+}
+.sec-2-1-2 p{
+    font-size: 14px;
+    padding: 20px;
+}
+.sec-2-1-2 img{
+    width: 40px;
+    height: 40px;
+}
+
+/* SECTION 3 */
+.sec-3{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+.sec-3-1{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+.sec-3-1 p{
+    padding:0px 0px 20px 0px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.sec-3-1-1{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.sec-3-1-2{
+    margin: 18px;
+    min-width: 30%;
+    height: 22%;
+    float: left;
+    border-radius: 10px;
+    transition: all 0.03s;
+    display: flex;
+    align-items: center;
+    line-height: 100%;
+    padding: 30px 0px;
+}
+.sec-3-1-2:hover{
+    background-color: rgba(236, 246, 246, 0.87); 
+}
+.sec-3-1 a{
+    text-decoration: none;
+    padding-right: auto;
+    color: black;
+    transition: color 0.03s;
+}
+.sec-3-1 a:hover{
+    color: rgb(0, 85, 255);
+}
+.sec-3-1-2 p{
+    font-size: 14px;
+    padding: 20px;
+}
+.sec-3-1-2 img{
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+}
+
+/* SECTION 4 */
+.sec-4{
+    width: 100%;
+    height: 300px;
+}
+.sec-4-1{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+.sec-4-1 p{
+    padding:0px 0px 20px 0px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.sec-4-1-1{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+}
+.sec-4-1-1-1{
+    width: 50%;
+    height: 100%;
+    padding: 15px 40px;
+}
+.sec-4-1-1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sec-4-1-1 a:hover{
+    color: rgb(71, 114, 255);;
+}
+.sec-4-1-1-2{
+    width: 50%;
+    height: 100%;
+    padding: 15px 40px;
+}
+.sec-4-1 button{
+    padding:10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(71, 114, 255);
+    background-color: rgb(185 226 255 / 47%);
+    border-color: transparent;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.sec-4-1 button:hover{
+    background-color: rgb(71, 114, 255);
+    color: rgb(185 226 255);
+    padding: 10px 20px;
+}
+
+/* SECTION 5 */
+.sec-5{
+    width: 100%;
+    height: 200px;
+}
+.sec-5-1{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+.sec-5-1 p{
+    padding:0px 0px 20px 0px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.sec-5-1-1{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.sec-5-1-1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+.sec-5-1-1 a:hover{
+    color: rgb(71, 114, 255);;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    display: flex;
+}
+.foot-1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    line-height: 80px;
+}
+.foot-1 img{
+    padding: 30px 5px;
+}
+.foot-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    line-height: 80px;
+}
+.foot-2 img{
+    width: 20px;
+    padding: 0px 3px;
+}
